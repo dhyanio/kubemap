@@ -1,13 +1,13 @@
 [![release](https://img.shields.io/github/release/dhyanio/kubemap.svg)](https://github.com/dhyanio/kubemap/releases)
 [![tests](https://github.com/dhyanio/kubemap/actions/workflows/test.yaml/badge.svg)](https://github.com/dhyanio/kubemap/actions/workflows/test.yaml)
 [![linter](https://github.com/dhyanio/kubemap/actions/workflows/linter.yaml/badge.svg)](https://github.com/dhyanio/kubemap/actions/workflows/linter.yaml)
-[![release](https://godoc.org/github.com/dhyanio/kubemap?status.svg)](https://pkg.go.dev/github.com/dhyanio/kubemap?tab=doc)
 
 Kubemap is a tfstate visualizer.
 
 # Table of Contents
 - [Installation](#installation)
 - [Cli](#cli)
+- [Ui](#ui)
 
 ### Installation
 
@@ -32,3 +32,11 @@ sudo mv kubemap-darwin-amd64 /usr/local/bin/kubemap
 **From source**
 1.  Run `git clone <kubemap repo> && cd kubemap/`
 2.  Run `make build`
+
+### CLI
+
+### Ui
+KubeMap runs at 8080
+```shell
+    http://localhost:8080/
+```

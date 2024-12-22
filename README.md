@@ -1,10 +1,7 @@
 [![release](https://img.shields.io/github/release/dhyanio/kubemap.svg)](https://github.com/dhyanio/kubemap/releases)
 [![tests](https://github.com/dhyanio/kubemap/actions/workflows/test.yaml/badge.svg)](https://github.com/dhyanio/kubemap/actions/workflows/test.yaml)
 [![linter](https://github.com/dhyanio/kubemap/actions/workflows/linter.yaml/badge.svg)](https://github.com/dhyanio/kubemap/actions/workflows/linter.yaml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/dhyanio/kubemap)](https://goreportcard.com/report/github.com/dhyanio/kubemap)
-![Go Version](https://img.shields.io/badge/go%20version-%3E=1.23-61CFDD.svg?style=flat-square)
 [![release](https://godoc.org/github.com/dhyanio/kubemap?status.svg)](https://pkg.go.dev/github.com/dhyanio/kubemap?tab=doc)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 Kubemap is a tfstate visualizer.
 

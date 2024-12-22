@@ -11,7 +11,6 @@ Kubemap is a tfstate visualizer.
 # Table of Contents
 - [Installation](#installation)
 - [Cli](#cli)
-- [Client](#client)
 
 ### Installation
 

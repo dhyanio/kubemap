@@ -2,23 +2,23 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/dhyanio/kubemap/constant"
 	"os"
+
+	"github.com/dhyanio/kubemap/constant"
 
 	"github.com/spf13/cobra"
 )
 
 const (
-	longAppDesc = "Kubemap is a tfstate file visualizer"
+	longAppDesc  = "Kubemap is a tfstate file visualizer"
 	shortAppDesc = "Kubemap is a tfstate file visualizer"
-	 
 )
 
 // RootCmd represents the base commnad
 var RootCmd = &cobra.Command{
-	Use: "kubemap",
+	Use:   "kubemap",
 	Short: shortAppDesc,
-	Long: longAppDesc,
+	Long:  longAppDesc,
 
 	Run: func(cmd *cobra.Command, args []string) {
 		printInfo()
@@ -27,6 +27,7 @@ var RootCmd = &cobra.Command{
 
 func init() {
 	RootCmd.AddCommand(versionCmd)
+	RootCmd.AddCommand(runCmd)
 }
 
 // Execute executes the root command

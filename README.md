@@ -2,7 +2,9 @@
 [![tests](https://github.com/dhyanio/kubemap/actions/workflows/test.yaml/badge.svg)](https://github.com/dhyanio/kubemap/actions/workflows/test.yaml)
 [![linter](https://github.com/dhyanio/kubemap/actions/workflows/linter.yaml/badge.svg)](https://github.com/dhyanio/kubemap/actions/workflows/linter.yaml)
 
-Kubemap is a tfstate visualizer.
+**Kubemap** is a tfstate parser and visualizer Golang tool. It helps if you want to analyse your Terraform tfstate file.
+
+[How to parse and visualise Terraform tfsate file?](http://kubefront.net/iac/parse-terraform-state-file/) Read this documentation for how to use Kubemap.
 
 # Table of Contents
 - [Installation](#installation)
@@ -14,7 +16,7 @@ Kubemap is a tfstate visualizer.
 #### Kubemap
 
 **From releases**
-This installs binary.
+This installs a binary.
 
 * Linux
 ```
